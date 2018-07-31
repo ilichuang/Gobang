@@ -85,8 +85,8 @@ void PrePrint() //五子棋游戏初始界面
 		}
 		if (mm.uMsg == WM_LBUTTONDOWN && (mm.x >= 80 && mm.x <= 320) && (mm.y >= 250 && mm.y <= 330))
 		{
-			mciSendString(L"open 记忆深处.mp3",0, 0, 0);
-			mciSendString(L"play 记忆深处.mp3",0, 0, 0);
+			mciSendString(L"open music.mp3",0, 0, 0);
+			mciSendString(L"play music.mp3",0, 0, 0);
 		}
 		if (mm.uMsg == WM_LBUTTONDOWN && (mm.x >= 80 && mm.x <= 320) && (mm.y >= 350 && mm.y <= 430))
 		{
